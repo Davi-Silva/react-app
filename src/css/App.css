@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+}
+
+/* ####################### */
+/* ####### NAVBAR ######## */
+/* ####################### */
+
+.navigation-bar {
+    background: transparent;
+}
+
+/* .navigation-bar .search-bar-links {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.navigation-bar .links #navbar-ul {
+    margin-top: 10px; 
+}
+
+.navigation-bar .links #navbar-ul li {
+    display: inline;
+    margin: 0px 5px;
+    float: right;
+}
+
+.navigation-bar .links #navbar-ul li a {
+    color: #61dafb;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.navigation-bar .links #navbar-ul li a:hover {
+    color: #4aa9c4;
+}
+
+.navigation-bar .search-bar #search-bar-input {
+    background: transparent;
+    border: 1px solid #61dafb;
+    border-radius: 7px;
+    padding: 7px;
+    color: #61dafb;
+    display: table;
+    margin: 5px auto 0 auto;
+    text-align: center;
+
+}
+
+.navigation-bar .search-bar #search-bar-input:focus {
+    outline: none;
+}
+
+.navigation-bar .search-bar #search-bar-input::placeholder {
+    color: #61dafb;
+    text-align: center;
+}
+
+.navigation-bar .search-bar button {
+    display: none;
+}
+
+/* ####################### */
+/* ####### FOOTER ######## */
+/* ####################### */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer  .footer-columns ul {
+    position: absolute;
+    right: 0;
+}
+
+.footer  .footer-columns ul li {
+    list-style: none;
+}
+
+.footer .footer-columns ul li a {
+    color: #61dafb;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer .footer-columns ul li a:hover {
+    color: #4aa9c4;
+}
+
+.footer  .footer-columns .email {
+    margin: 0 auto;
+    display: table;
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.footer  .footer-columns .email:hover {
+    color: #4aa9c4;
+}
+
+.footer .footer-columns .social-medias {
+    position: absolute;
+    left: 0;
+}
+
+.footer .copyright {
+    color: #61dafb;
+    margin-top: 40px;
+}
+
+.footer .copyright a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.footer .copyright a:hover {
+    color: #4aa9c4;
+}
+
+.footer .copyright p {
+    color: #61dafb;
+    margin-top: 40px;
+}
